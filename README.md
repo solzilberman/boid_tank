@@ -2,7 +2,7 @@
 ___
 
 ## Project Video
-[![IMAGE ALT TEXT](https://i.ytimg.com/vi/MFLORcEgzS4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3WS18XEBdMSnaiQ0cda47C2c1eQ)](https://www.youtube.com/watch?v=MFLORcEgzS4&t=33s "Boids")
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/MFLORcEgzS4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3WS18XEBdMSnaiQ0cda47C2c1eQ)](https://www.youtube.com/watch?v=MFLORcEgzS4 "Boids")
 
 ## Features
 - [x] 3D Boid Simulation (cohesion, adhesion, seperation)

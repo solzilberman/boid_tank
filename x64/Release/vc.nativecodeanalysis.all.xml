@@ -1,0 +1,2476 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5934</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'window-&gt;RootWindowForNav' contains the same NULL value as 'parent_window' did. </DESCRIPTION>
+    <FUNCTION>ImGui::UpdateWindowParentAndRootLinks</FUNCTION>
+    <DECORATED>?UpdateWindowParentAndRootLinks@ImGui@@YAXPEAUImGuiWindow@@H0@Z</DECORATED>
+    <FUNCLINE>5924</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5926</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5927</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5928</LINE>
+        <COLUMN>64</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'parent_window' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5930</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5932</LINE>
+        <COLUMN>59</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5934</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5937</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5934</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5934</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'parent_window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>12025</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(2)' could be '0':  this does not adhere to the specification for the function 'ImmAssociateContextEx'. </DESCRIPTION>
+    <FUNCTION>SetPlatformImeDataFn_DefaultImpl</FUNCTION>
+    <DECORATED>?SetPlatformImeDataFn_DefaultImpl@@YAXPEAUImGuiViewport@@PEAUImGuiPlatformImeData@@@Z</DECORATED>
+    <FUNCLINE>12014</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>12017</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>12019</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>12022</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>12025</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>6503</LINE>
+      <COLUMN>150</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'buf' could be '0':  this does not adhere to the specification for the function 'memcpy'. </DESCRIPTION>
+    <FUNCTION>ExampleAppConsole::Strdup</FUNCTION>
+    <DECORATED>?Strdup@ExampleAppConsole@@SAPEADPEBD@Z</DECORATED>
+    <FUNCLINE>6503</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6503</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6503</LINE>
+        <COLUMN>113</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buf' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6503</LINE>
+        <COLUMN>150</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buf' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\vcruntime_string.h:43)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6503</LINE>
+        <COLUMN>150</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buf' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_glfw.cpp</FILENAME>
+      <LINE>421</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'GlfwClientApi' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplGlfw_Init</FUNCTION>
+    <DECORATED>?ImGui_ImplGlfw_Init@@YA_NPEAUGLFWwindow@@_NW4GlfwClientApi@@@Z</DECORATED>
+    <FUNCLINE>421</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_opengl3.cpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui_ImplOpenGL3_Init</FUNCTION>
+    <DECORATED>?ImGui_ImplOpenGL3_Init@@YA_NPEBD@Z</DECORATED>
+    <FUNCLINE>207</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_opengl3.cpp</FILENAME>
+      <LINE>627</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui_ImplOpenGL3_CreateDeviceObjects</FUNCTION>
+    <DECORATED>?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ</DECORATED>
+    <FUNCLINE>612</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>4132</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'state'. </DESCRIPTION>
+    <FUNCTION>ImGui::InputTextEx</FUNCTION>
+    <DECORATED>?InputTextEx@ImGui@@YA_NPEBD0PEADHAEBUImVec2@@HP6AHPEAUImGuiInputTextCallbackData@@@ZPEAX@Z</DECORATED>
+    <FUNCLINE>3905</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3907</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3908</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3915</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3916</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3917</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3919</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3920</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3921</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3922</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3923</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3924</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3925</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3928</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3931</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3932</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3933</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3935</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3936</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3938</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3939</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3940</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3941</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3942</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3978</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3979</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3982</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3984</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3985</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3989</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3991</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3992</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3994</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3995</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3996</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3997</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3998</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4000</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4002</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'state' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4003</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4004</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4005</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4055</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4082</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'g.ActiveId==id&amp;&amp;state==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4083</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4086</LINE>
+        <COLUMN>62</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4090</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4091</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4092</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4093</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4097</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4108</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4109</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4112</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4129</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'g.ActiveId==id')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4132</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'state' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>6748</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'window'. See line 6718 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>ImGui::EndMenuBar</FUNCTION>
+    <DECORATED>?EndMenuBar@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>6715</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6717</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6718</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6720</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6723</LINE>
+        <COLUMN>108</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6726</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6727</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6729</LINE>
+        <COLUMN>128</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'window' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6746</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6747</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6748</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>428</LINE>
+      <COLUMN>95</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImLerp</FUNCTION>
+    <DECORATED>??$ImLerp@_J@@YA_J_J0M@Z</DECORATED>
+    <FUNCLINE>428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>OBJ_Loader.h</FILENAME>
+      <LINE>767</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'vtype'.</DESCRIPTION>
+    <FUNCTION>objl::Loader::GenVerticesFromRawOBJ</FUNCTION>
+    <DECORATED>?GenVerticesFromRawOBJ@Loader@objl@@AEAAXAEAV?$vector@UVertex@objl@@V?$allocator@UVertex@objl@@@std@@@std@@AEBV?$vector@UVector3@objl@@V?$allocator@UVector3@objl@@@std@@@4@AEBV?$vector@UVector2@objl@@V?$allocator@UVector2@objl@@@std@@@4@1V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z</DECORATED>
+    <FUNCLINE>716</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>722</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>722</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>723</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>724</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>724</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>724</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>724</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>726</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>729</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>729</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>732</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'vtype' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>734</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>734</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>737</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'svert.size()==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>744</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'svert.size()==2' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>752</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'svert.size()==3' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>767</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>769</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>771</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>772</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>773</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>774</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+        <FILENAME>OBJ_Loader.h</FILENAME>
+        <LINE>767</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'vtype' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>OBJ_Loader.h</FILENAME>
+      <LINE>861</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>objl::Loader::VertexTriangluation</FUNCTION>
+    <DECORATED>?VertexTriangluation@Loader@objl@@AEAAXAEAV?$vector@IV?$allocator@I@std@@@std@@AEBV?$vector@UVertex@objl@@V?$allocator@UVertex@objl@@@std@@@4@@Z</DECORATED>
+    <FUNCLINE>827</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>OBJ_Loader.h</FILENAME>
+      <LINE>875</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>objl::Loader::VertexTriangluation</FUNCTION>
+    <DECORATED>?VertexTriangluation@Loader@objl@@AEAAXAEAV?$vector@IV?$allocator@I@std@@@std@@AEBV?$vector@UVertex@objl@@V?$allocator@UVertex@objl@@@std@@@4@@Z</DECORATED>
+    <FUNCLINE>827</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>helpers.h</FILENAME>
+      <LINE>263</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>loadModel</FUNCTION>
+    <DECORATED>?loadModel@@YAXXZ</DECORATED>
+    <FUNCLINE>251</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>helpers.h</FILENAME>
+      <LINE>264</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>loadModel</FUNCTION>
+    <DECORATED>?loadModel@@YAXXZ</DECORATED>
+    <FUNCLINE>251</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shaders.h</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>shaderLog</FUNCTION>
+    <DECORATED>?shaderLog@@YAXHI@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shaders.h</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>shaderLog</FUNCTION>
+    <DECORATED>?shaderLog@@YAXHI@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>vertexbuffer.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'VertexBufferC::buffer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>VertexBufferC::{ctor}</FUNCTION>
+    <DECORATED>??0VertexBufferC@@QEAA@V?$vector@MV?$allocator@M@std@@@std@@0@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>VertexBufferC::buffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CameraC::shader' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CameraC::{ctor}</FUNCTION>
+    <DECORATED>??0CameraC@@QEAA@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CameraC::shader</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>414</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>414</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>414</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>414</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>415</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>415</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>415</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>415</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>417</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>417</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>417</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>shapes.h</FILENAME>
+      <LINE>417</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TerrainC::noise</FUNCTION>
+    <DECORATED>?noise@TerrainC@@QEAAMMM@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>kdtree.h</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'KDTreeC::rootNode' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>KDTreeC::{ctor}</FUNCTION>
+    <DECORATED>??0KDTreeC@@QEAA@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>KDTreeC::rootNode</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1048</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad2</FUNCTION>
+    <DECORATED>?stbi__malloc_mad2@@YAPEAXHHH@Z</DECORATED>
+    <FUNCLINE>1045</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1048</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad2</FUNCTION>
+    <DECORATED>?stbi__malloc_mad2@@YAPEAXHHH@Z</DECORATED>
+    <FUNCLINE>1045</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1055</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad3</FUNCTION>
+    <DECORATED>?stbi__malloc_mad3@@YAPEAXHHHH@Z</DECORATED>
+    <FUNCLINE>1052</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1055</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad3</FUNCTION>
+    <DECORATED>?stbi__malloc_mad3@@YAPEAXHHHH@Z</DECORATED>
+    <FUNCLINE>1052</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1055</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad3</FUNCTION>
+    <DECORATED>?stbi__malloc_mad3@@YAPEAXHHHH@Z</DECORATED>
+    <FUNCLINE>1052</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1062</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad4</FUNCTION>
+    <DECORATED>?stbi__malloc_mad4@@YAPEAXHHHHH@Z</DECORATED>
+    <FUNCLINE>1059</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1062</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad4</FUNCTION>
+    <DECORATED>?stbi__malloc_mad4@@YAPEAXHHHHH@Z</DECORATED>
+    <FUNCLINE>1059</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1062</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad4</FUNCTION>
+    <DECORATED>?stbi__malloc_mad4@@YAPEAXHHHHH@Z</DECORATED>
+    <FUNCLINE>1059</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1062</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__malloc_mad4</FUNCTION>
+    <DECORATED>?stbi__malloc_mad4@@YAPEAXHHHHH@Z</DECORATED>
+    <FUNCLINE>1059</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1192</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_8_to_16</FUNCTION>
+    <DECORATED>?stbi__convert_8_to_16@@YAPEAGPEAEHHH@Z</DECORATED>
+    <FUNCLINE>1186</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1211</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__vertical_flip</FUNCTION>
+    <DECORATED>?stbi__vertical_flip@@YAXPEAXHHH@Z</DECORATED>
+    <FUNCLINE>1202</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1211</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__vertical_flip</FUNCTION>
+    <DECORATED>?stbi__vertical_flip@@YAXPEAXHHH@Z</DECORATED>
+    <FUNCLINE>1202</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1752</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format</FUNCTION>
+    <DECORATED>?stbi__convert_format@@YAPEAEPEAEHHII@Z</DECORATED>
+    <FUNCLINE>1737</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1752</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format</FUNCTION>
+    <DECORATED>?stbi__convert_format@@YAPEAEPEAEHHII@Z</DECORATED>
+    <FUNCLINE>1737</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1753</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format</FUNCTION>
+    <DECORATED>?stbi__convert_format@@YAPEAEPEAEHHII@Z</DECORATED>
+    <FUNCLINE>1737</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1753</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format</FUNCTION>
+    <DECORATED>?stbi__convert_format@@YAPEAEPEAEHHII@Z</DECORATED>
+    <FUNCLINE>1737</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1802</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1802</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1802</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1809</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1809</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1810</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>1810</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__convert_format16</FUNCTION>
+    <DECORATED>?stbi__convert_format16@@YAPEAGPEAGHHII@Z</DECORATED>
+    <FUNCLINE>1794</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3003</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__parse_entropy_coded_data</FUNCTION>
+    <DECORATED>?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>2928</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3036</LINE>
+      <COLUMN>72</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__parse_entropy_coded_data</FUNCTION>
+    <DECORATED>?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>2928</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>2946</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__parse_entropy_coded_data</FUNCTION>
+    <DECORATED>?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>2928</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>2946</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__parse_entropy_coded_data</FUNCTION>
+    <DECORATED>?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>2928</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>2946</LINE>
+      <COLUMN>93</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__parse_entropy_coded_data</FUNCTION>
+    <DECORATED>?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>2928</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>2975</LINE>
+      <COLUMN>93</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__parse_entropy_coded_data</FUNCTION>
+    <DECORATED>?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>2928</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3073</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_finish</FUNCTION>
+    <DECORATED>?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>3063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3075</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_finish</FUNCTION>
+    <DECORATED>?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>3063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3075</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_finish</FUNCTION>
+    <DECORATED>?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>3063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3075</LINE>
+      <COLUMN>93</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__jpeg_finish</FUNCTION>
+    <DECORATED>?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z</DECORATED>
+    <FUNCLINE>3063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3555</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__resample_row_hv_2_simd</FUNCTION>
+    <DECORATED>?stbi__resample_row_hv_2_simd@@YAPEAEPEAE00HH@Z</DECORATED>
+    <FUNCLINE>3498</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3872</LINE>
+      <COLUMN>72</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>load_jpeg_image</FUNCTION>
+    <DECORATED>?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z</DECORATED>
+    <FUNCLINE>3833</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3895</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>load_jpeg_image</FUNCTION>
+    <DECORATED>?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z</DECORATED>
+    <FUNCLINE>3833</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>3895</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>load_jpeg_image</FUNCTION>
+    <DECORATED>?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z</DECORATED>
+    <FUNCLINE>3833</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4663</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4672</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4755</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4768</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4769</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4769</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4820</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image_raw</FUNCTION>
+    <DECORATED>?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z</DECORATED>
+    <FUNCLINE>4636</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4886</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image</FUNCTION>
+    <DECORATED>?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z</DECORATED>
+    <FUNCLINE>4855</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4886</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image</FUNCTION>
+    <DECORATED>?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z</DECORATED>
+    <FUNCLINE>4855</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4886</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image</FUNCTION>
+    <DECORATED>?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z</DECORATED>
+    <FUNCLINE>4855</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4887</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image</FUNCTION>
+    <DECORATED>?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z</DECORATED>
+    <FUNCLINE>4855</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4887</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image</FUNCTION>
+    <DECORATED>?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z</DECORATED>
+    <FUNCLINE>4855</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>4887</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__create_png_image</FUNCTION>
+    <DECORATED>?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z</DECORATED>
+    <FUNCLINE>4855</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5708</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__bmp_load</FUNCTION>
+    <DECORATED>?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5533</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5708</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__bmp_load</FUNCTION>
+    <DECORATED>?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5533</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5709</LINE>
+      <COLUMN>62</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__bmp_load</FUNCTION>
+    <DECORATED>?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5533</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5709</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__bmp_load</FUNCTION>
+    <DECORATED>?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5533</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5709</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__bmp_load</FUNCTION>
+    <DECORATED>?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5533</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5932</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__tga_load</FUNCTION>
+    <DECORATED>?stbi__tga_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5867</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>5932</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__tga_load</FUNCTION>
+    <DECORATED>?stbi__tga_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>5867</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6209</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__psd_load</FUNCTION>
+    <DECORATED>?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z</DECORATED>
+    <FUNCLINE>6130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6209</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__psd_load</FUNCTION>
+    <DECORATED>?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z</DECORATED>
+    <FUNCLINE>6130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6297</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__psd_load</FUNCTION>
+    <DECORATED>?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z</DECORATED>
+    <FUNCLINE>6130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6310</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__psd_load</FUNCTION>
+    <DECORATED>?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z</DECORATED>
+    <FUNCLINE>6130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6435</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__pic_load_core</FUNCTION>
+    <DECORATED>?stbi__pic_load_core@@YAPEAEPEAUstbi__context@@HHPEAHPEAE@Z</DECORATED>
+    <FUNCLINE>6402</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6435</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__pic_load_core</FUNCTION>
+    <DECORATED>?stbi__pic_load_core@@YAPEAEPEAUstbi__context@@HHPEAHPEAE@Z</DECORATED>
+    <FUNCLINE>6402</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6540</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__pic_load</FUNCTION>
+    <DECORATED>?stbi__pic_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>6513</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6540</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__pic_load</FUNCTION>
+    <DECORATED>?stbi__pic_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>6513</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6811</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6812</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6820</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6821</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6857</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6857</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6861</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__gif_load_next</FUNCTION>
+    <DECORATED>?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z</DECORATED>
+    <FUNCLINE>6796</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>6989</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '35036' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z</DECORATED>
+    <FUNCLINE>6989</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7020</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z</DECORATED>
+    <FUNCLINE>6989</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7037</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z</DECORATED>
+    <FUNCLINE>6989</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7048</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z</DECORATED>
+    <FUNCLINE>6989</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7048</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z</DECORATED>
+    <FUNCLINE>6989</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7050</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z</DECORATED>
+    <FUNCLINE>6989</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7076</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '34980' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>stbi__gif_load</FUNCTION>
+    <DECORATED>?stbi__gif_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7076</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7253</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7253</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7253</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7312</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7312</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7312</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\STBI\</FILEPATH>
+      <FILENAME>stbi_image.h</FILENAME>
+      <LINE>7312</LINE>
+      <COLUMN>86</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbi__hdr_load</FUNCTION>
+    <DECORATED>?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7188</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>engine.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>EngineC::renderBoidsInst</FUNCTION>
+    <DECORATED>?renderBoidsInst@EngineC@@QEAAXXZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>engine.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>EngineC::renderBoidsInst</FUNCTION>
+    <DECORATED>?renderBoidsInst@EngineC@@QEAAXXZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>engine.h</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>EngineC::renderBoidsInst</FUNCTION>
+    <DECORATED>?renderBoidsInst@EngineC@@QEAAXXZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\</FILEPATH>
+      <FILENAME>engine.h</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>EngineC::renderBoidsInst</FUNCTION>
+    <DECORATED>?renderBoidsInst@EngineC@@QEAAXXZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\glm\core\</FILEPATH>
+      <FILENAME>type_mat4x4.inl</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'glm::detail::tmat4x4&lt;float&gt;::ctor' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>glm::detail::tmat4x4&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tmat4x4@M@detail@glm@@QEAA@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>4132</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'state'. </DESCRIPTION>
+    <FUNCTION>ImGui::InputTextEx</FUNCTION>
+    <DECORATED>?InputTextEx@ImGui@@YA_NPEBD0PEADHAEBUImVec2@@HP6AHPEAUImGuiInputTextCallbackData@@@ZPEAX@Z</DECORATED>
+    <FUNCLINE>3905</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3907</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3908</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3915</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3916</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3917</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3919</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3920</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3921</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3922</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3923</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3924</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3925</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3928</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3931</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3932</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3933</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3935</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3936</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3938</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3939</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3940</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3941</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3942</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3978</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3979</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3982</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3984</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3985</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3989</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3991</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3992</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3994</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3995</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3996</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3997</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>3998</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4000</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4002</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'state' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4003</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4004</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4005</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4055</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4082</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'g.ActiveId==id&amp;&amp;state==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4083</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4086</LINE>
+        <COLUMN>62</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4090</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4091</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4092</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4093</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4097</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4108</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4109</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4112</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4129</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'g.ActiveId==id')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>4132</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'state' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>6748</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'window'. See line 6718 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>ImGui::EndMenuBar</FUNCTION>
+    <DECORATED>?EndMenuBar@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>6715</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6717</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6718</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6720</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6723</LINE>
+        <COLUMN>108</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6726</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6727</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6729</LINE>
+        <COLUMN>128</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'window' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6746</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6747</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6748</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>428</LINE>
+      <COLUMN>95</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImLerp</FUNCTION>
+    <DECORATED>??$ImLerp@_J@@YA_J_J0M@Z</DECORATED>
+    <FUNCLINE>428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sol\Documents\School\Spring 22\CS 434\finalproj\particles\include\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>428</LINE>
+      <COLUMN>95</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImLerp</FUNCTION>
+    <DECORATED>??$ImLerp@_K@@YA_K_K0M@Z</DECORATED>
+    <FUNCLINE>428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

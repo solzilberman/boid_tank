@@ -2,23 +2,23 @@
 ___
 
 ## Project Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MFLORcEgzS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/MFLORcEgzS4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3WS18XEBdMSnaiQ0cda47C2c1eQ)](https://www.youtube.com/watch?v=MFLORcEgzS4&t=33s "Boids")
 
 ## Features
-[x] 3D Boid Simulation (cohesion, adhesion, seperation)
-[x] Interact with mouse
-[x] Wind controls
+- [x] 3D Boid Simulation (cohesion, adhesion, seperation)
+- [x] Interact with mouse
+- [x] Wind controls
 
 ### Additional Features
-[x] obstacle course + collision avoidance
-[x] uniform spatial subdivision for neighbor checks
-[x] predator/prey basic functionality
+- [x] obstacle course + collision avoidance
+- [x] uniform spatial subdivision for neighbor checks
+- [x] predator/prey basic functionality
 
 ### Cosmetic Features
-[x] skybox
-[x] perlin noise terrain
-[x] boid color editor
-[x] obj loader
+- [x] skybox
+- [x] perlin noise terrain
+- [x] boid color editor
+- [x] obj loader
 
 ### Sources:
 - https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/boids.html
